@@ -1,8 +1,6 @@
 blushthecorrector
 
 
-[![CI](https://github.com/salsadsid/brainboomingai/actions/workflows/ci.yml/badge.svg)](https://github.com/salsadsid/brainboomingai/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Free AI writing tools — grammar checker, paraphraser, summarizer and more — built with Next.js 15 and Google Gemini. No signup, and anonymous visitors' text is never stored.
 
@@ -188,6 +186,4 @@ JWT session strategy with `user` and `admin` roles. Middleware protects `/dashbo
 - **Structured output with a fallback**: each tool declares a Gemini response schema and a matching zod schema (a test asserts the two agree). Output that fails validation degrades to plain text instead of failing the request.
 - **Best-effort writes**: history, activity log and usage metrics are written together after a successful generation and never fail the request; the metrics write is time-boxed.
 
-## License
 
-[MIT](LICENSE)
